@@ -1,0 +1,22 @@
+"use strict";
+let lname;
+lname = "Santosh";
+let newname = lname.toLowerCase();
+console.log(newname);
+let age;
+age = 24;
+age = 24.4;
+let dob = "25";
+let result = parseInt(dob);
+let isValid;
+isValid = false;
+console.log(isValid);
+//two types to define an array, feel free top use anyone
+let empList;
+empList = ["Varun", "Ashish", "Madhura", "Manoj"];
+let numList;
+numList = [1, 2, 3, 4, 5];
+let results = numList.filter((num) => num > 2);
+let sum = numList.reduce((acc, num) => acc + num);
+console.log(sum);
+let c = 2 /* Color.Blue */;
